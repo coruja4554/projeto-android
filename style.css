@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'love';
+    src: url('fontes/idroid.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main {
+    text-align: justify;
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    font-family:'love';
+    font-size: 12px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0px 1px 2px 3px rgba(122, 127, 106, 0.395);
+    border-radius: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+body {
+    background-color: rgb(218, 225, 198);
+    
+}
+
+#cabeçalho{
+    background-image: linear-gradient(to top,rgb(26, 92, 56),#2DA161, #3BD27F);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height:100%;
+    width: 100%;
+    margin: 0px;
+    border: 100px;
+ 
+}
+
+.home {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    margin-right: 8px;
+
+}
+
+.home:hover{
+    color: rgb(238, 119, 139);
+    background-color: rgba(255, 192, 203, 0.434);
+    
+}
+
+#titulo {
+    text-align: center;
+  
+}
+.titulo1 {
+    background-image:linear-gradient(to right,#67d29776,#afdcc379,#ffffff57) ;
+    
+}
+
+#p1{
+    text-align: center;
+    font-weight: 500;
+}
+
+
+#li2 {
+    padding-left: 222px;
+    padding-bottom: 30px;
+}
+#chefe {
+    background-color: #2DA161;
+    padding-bottom: 30px;
+    border-radius: 10px;
+
+
+}
+#chefe2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 92, 56);
+    padding-bottom: 1px;
+    border-radius: 4px;
+    color: white;
+}
+
+#chefao {
+    background-color: white;
+    margin-left: 17px;
+    margin-right: 17px;
+
+}
+
+#final {
+text-align: center;
+padding-bottom: 20px;
+font-size: 8px;
+}
+
+#imaj {
+    padding: 20px;
+    background-color: rgb(2, 36, 7);
+    
+}
+footer {
+    text-align: center;
+    background-color: rgb(1, 42, 1);
+    color: white;
+}
+
+
+
